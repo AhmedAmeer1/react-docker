@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: gcr.io/kubernetes-project-350417/react-app:v1
+          image: gcr.io/kubernetes-project-350417/github.com/ahmedameer1/react-docker
           ports:
             - containerPort: 3000
